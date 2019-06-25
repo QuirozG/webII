@@ -18,13 +18,22 @@
 
     .contenedor {
         width: 95%;
-        max-width: 120rem; /*  1200 X 00.625(valor de rem) */
+        max-width: 120rem; /*  1200 X 00.625(valor de rem)- en este trabajo se tomo el valor de rem como 10px */
         margin: 0 auto;
     }
 
     h1 {
         font-size: 3.8rem;
     }
+
+    .texto #titulo1{
+       font-family: 'Baloo Bhai', cursive;
+    }
+    
+    .texto #titulo2{
+         font-family: 'Pacifico', cursive;
+    }
+
     h2 {
         font-size: 3.4rem;
     }
@@ -49,7 +58,7 @@
         display: block!important;
     }
     .contenido-centrado {
-        max-width: 800px;
+        max-width: 80rem;
     }
 
 /* Cabecera */
@@ -82,7 +91,7 @@
         line-height: 2;
     }
 
-    .barra {
+    .logo-nav {
         padding-top: 3rem;
         display: flex;
         justify-content: space-between;
@@ -107,14 +116,6 @@
 
     .navegar a:hover {
         color: #71B100;
-    }
-
-    .menu img {
-        width: 5rem;
-    }
-
-    .menu {
-        display: none;
     }
 
     .navegar:target {

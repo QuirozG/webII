@@ -7,37 +7,40 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<!--Cabecera-->
     <header class="site-header cabecera">
-
+        
         <div class="contenedor header">
-              <!--este div controla los contenidos de la barra-->
-              
-            <div class="barra">                
+              <!--este div controla los contenidos de la barra-->              
+            <div class="logo-nav">                
                 <img src="img/logo.svg" alt="Logotipo">            
-                <div class="menu">
-                    <a href="#navegar">
-                        <img src="img/barras.svg" alt="Icono Menu">
-                    </a>
-                </div>
-
+              
+                <!--Menu-->
                 <nav class="navegar">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">Anuncios</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a target="_blank" rel="noreferrer" href="nosotros.html">Nosotros</a>
+                    <a target="_blank" rel="noreferrer" href="anuncios.html">Anuncios</a>
+                    <a target="_blank" rel="noreferrer" href="blog.html">Blog</a>
+                    <a target="_blank" rel="noreferrer" href="contacto.html">Contacto</a>
                 </nav>
-            </div>
 
-            <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+            </div>
+            
+            <div class="texto">
+                    <h1 id="titulo1">Venta de Casas y Departamentos</h1>
+                    <h1 id="titulo2">Exclusivos de Lujo</h1>
+            </div>
+           
 
         </div> 
 
     </header>
 
+<!--Seccion nosotros-->
     <section class="contenedor nosotros">
         <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
         <div class="iconos">
@@ -61,16 +64,20 @@
         </div>
     </section>
 
+<!--Seccion Casas y departamentos-->
     <main class="contenedor">
         <h2 class="fw-300 centrar-texto">Casas y Depas en Venta</h2>
+         <!--Division de anuncios-->
         <div class="anuncios">
+         <!--anuncio particular-->
             <div class="anuncio">
                 <img src="img/anuncio1.jpg" alt="Anuncio casa en el lago">
+                <!--Contenido-->
                 <div class="canuncio">
                     <h3>Casa de Lujo en el Lago</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
                     <p class="precio">$3,000,0000</p>
-
+                     <!--Iconos-->
                     <ul class="caracteristicas">
                         <li>
                             <img src="img/icono_wc.svg" alt="wc">
@@ -85,8 +92,7 @@
                             <p>4</p>
                         </li>
                     </ul>
-
-
+                    <!--Boton Amarillo-->
                     <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
                 </div>
             </div>
@@ -141,24 +147,25 @@
                 </div>
             </div>
         </div>
-
+        <!--Boton verde-->
         <div class="ver-todas">
             <a href="anuncios.html" class="boton boton-verde">Ver Todas</a>
         </div>
     </main>
 
+    <!--Contactoanos-->
     <section class="imagen-contacto">
         <div class="contenedor contacto">
             <h2>Encuentra la casa de tus sueños</h2>
-            <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo a la brevedad</p>
             <a href="contacto.html" class="boton boton-amarillo">Contactános</a>
         </div>
     </section>
 
+    <!--Blog-->
     <div class="seccion-blogs contenedor seccion">
         <section class="blog">
             <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
-
+           <!--articulo 1-->
             <article class="entrada">
                 <div class="imagen">
                     <img src="img/blog1.jpg" alt="Entrada de blog">
@@ -171,7 +178,7 @@
                     <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero</p>
                 </div>
             </article>
-
+            <!--articulo 2-->
             <article class="entrada">
                 <div class="imagen">
                     <img src="img/blog2.jpg" alt="Entrada de blog">
@@ -185,7 +192,7 @@
                 </div>
             </article>
         </section>
-
+        <!--Testimonial-->
         <section class="testimonial">
             <h3 class="centrar-texto fw-300">Testimoniales</h3>
             <div class="testimonio">
@@ -199,13 +206,14 @@
 
     </div>
 
+    <!--Pie-->
     <footer class="pie seccion">
         <div class="contenedor pie2">
             <nav class="navegar">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
+                <a target="_blank" rel="noreferrer" href="nosotros.html">Nosotros</a>
+                <a target="_blank" rel="noreferrer" href="anuncios.html">Anuncios</a>
+                <a target="_blank" rel="noreferrer" href="blog.html">Blog</a>
+                <a target="_blank" rel="noreferrer" href="contacto.html">Contacto</a>
             </nav>
             <p class="derechos">Todos los Derechos Reservados 2019 &copy; </p>
         </div>
